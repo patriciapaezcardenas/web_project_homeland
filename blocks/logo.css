@@ -1,0 +1,36 @@
+.logo {
+  width: 100%;
+  padding-top: 34px;
+  margin-bottom: 91px;
+}
+
+.logo__image {
+  display: block;
+  margin: 0 auto;
+  width: 255px;
+  height: 69px;
+}
+
+/*Media query pantallas menores a 1280 px*/
+@media screen and (max-width: 1280px) {
+  .logo {
+    padding-top: 34px;
+    margin-bottom: 91px;
+  }
+}
+
+/*Media query pantallas menores a 768 px*/
+@media screen and (max-width: 768px) {
+  .logo {
+    padding-top: 32px;
+    margin-bottom: 89px;
+  }
+}
+
+/*Media query pantallas menores a 320 px*/
+@media screen and (max-width: 320px) {
+  .logo {
+    padding-top: 24px;
+    margin-bottom: 49px;
+  }
+}
