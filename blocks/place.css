@@ -11,6 +11,7 @@
 .place__image {
   width: 100%;
 }
+
 .place__text {
   margin: 0;
   grid-column: 2;
@@ -71,6 +72,18 @@
   letter-spacing: 0px;
   font-weight: 600;
   text-decoration: none;
+}
+
+.place__purchase-link:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 120, 254, 0.25) 0%,
+    rgba(0, 58, 123, 0.25) 99.98%
+  );
+}
+
+.place__image:hover {
+  box-shadow: 0 0 200px #00000080 inset;
 }
 
 /*Media query pantallas menores a 1280 px*/
