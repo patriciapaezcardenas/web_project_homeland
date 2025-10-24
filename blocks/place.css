@@ -10,6 +10,7 @@
 
 .place__image {
   width: 100%;
+  box-shadow: 10px 10px 25px #00000080;
 }
 
 .place__text {
@@ -83,7 +84,8 @@
 }
 
 .place__image:hover {
-  box-shadow: 0 0 200px #00000080 inset;
+  opacity: 0.5;
+
 }
 
 /*Media query pantallas menores a 1280 px*/
